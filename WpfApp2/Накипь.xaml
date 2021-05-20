@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp2.Накипь"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Накипь" Height="740" Width="885" ResizeMode="NoResize">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="res/back2.jpg"/>
+        </Grid.Background>
+        <Image HorizontalAlignment="Center" Height="325" Margin="0,113,0,0" VerticalAlignment="Top" Width="579" Source="res/чайник (картинка).jpg" Stretch="Uniform" StretchDirection="Both"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,455,0,0" Text="Накипь значительно ухудшает теплопроводность металла. Из-за дополнительной теплоизоляции электронагреватель увеличивает свою температуру до установления нового равновесия вырабатываемого тепла и его отдачи сквозь слой накипи. Поскольку при повышении температуры сопротивление проводника увеличивается, его мощность снижается. Следовательно, время на нагрев воды увеличивается — как за счёт замедления теплопередачи на начальном этапе, так и за счёт постоянного снижения мощности в рабочем режиме. Количество потреблённой электроэнергии для нагрева одинакового количества воды до одинаковой температуры при этом почти не меняется (меняется потребляемая мощность и время нагрева)." TextWrapping="Wrap" VerticalAlignment="Top" Width="815" Height="255" FontSize="18"/>
+
+    </Grid>
+</Window>

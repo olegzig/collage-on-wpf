@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfApp2.Энергосбережение"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Энергосбережение" Height="740" Width="885" ResizeMode="NoResize">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="res/back2.jpg"/>
+        </Grid.Background>
+        <Image HorizontalAlignment="Center" Height="354" Margin="0,111,0,0" VerticalAlignment="Top" Width="589" Source="res/энерго.jpg" Stretch="Uniform" StretchDirection="Both"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,455,0,0" Text="На сегодняшний день установлены 7 основных классов энергоэффективности: A, B, C, D, E, F, G.
+Определенный класс присваивается прибору в зависимости от количества киловатт, которое он потребляет.
+Каждая буква маркируется на определенном фоне, цветовая гамма которого меняется от зеленого к желтому и затем к ярко-красному.
+Буква А, на зеленом фоне, означает высокий показатель энергоэффективности техники.
+Хотя существуют еще 2 класса: А+ и А++, обозначающие более высокую энергоэффективность, чем у класса А.
+Маркировку В наносят на приборы с более низким показателем энергоэффективности.
+Класс энергосбережения
+Буквы C, D, E, F, G показывают самый низкий класс энергосбережения." TextWrapping="Wrap" VerticalAlignment="Top" Width="815" Height="259" FontSize="18"/>
+
+    </Grid>
+</Window>

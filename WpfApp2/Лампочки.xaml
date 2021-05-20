@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApp2.Лампочки"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Лампочки" Height="740" Width="885" ResizeMode="NoResize">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="res/back2.jpg"/>
+        </Grid.Background>
+        <Image HorizontalAlignment="Center" Height="360" Margin="0,101,0,0" VerticalAlignment="Top" Width="504" Source="res/лампочки(картинка).jpg" Stretch="Uniform" StretchDirection="Both"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,455,0,0" Text="LED-лампы позволяют в 6-10 раз сократить расходы на электроэнергию.
+Не нагреваются. Подходят для использования с бумажными, деревянными и другими огнеопасными плафонами и абажурами.
+Безопасны для детей при установке в ночниках и настольных лампах.
+Долговечны, сопровождаются гарантией.
+Заявленная продолжительность эксплуатации LED-ламп – 25-50 тысяч часов. При ежедневной шестичасовой работе это составляет от 11 до 22 лет.
+Устойчивы к перепадам напряжения в сети. Стабильно работают при изменении напряжения в широких диапазонах." TextWrapping="Wrap" VerticalAlignment="Top" Width="815" Height="254" FontSize="18"/>
+
+    </Grid>
+</Window>

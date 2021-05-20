@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp2.Холодильник"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Холодильник" Height="740" Width="885" ResizeMode="NoResize">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="res/back2.jpg"/>
+        </Grid.Background>
+        <Image HorizontalAlignment="Left" Height="341" Margin="196,98,0,0" VerticalAlignment="Top" Width="511" Source="res/холодильник 1.jpg" Stretch="Uniform" StretchDirection="Both"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,455,0,0" Text="Производители крайне не советуют приобретать к этому варианту, потому что это рано или поздно приведет к поломке агрегата. Это происходит потому, что батарея будет нагревать заднюю часть холодильного шкафа, который в свою очередь испаряет холодный воздух. Из-за горячих паров агрегату придется расходовать много электроэнергии, чтобы сохранять свою температуру, а это в конечном итоге и приведет к тому, что он выйдет из строя. В инструкции к применению холодильного шкафа четко написано о недопустимости его установки около батареи отопления." TextWrapping="Wrap" VerticalAlignment="Top" Width="815" Height="259" FontSize="18"/>
+
+    </Grid>
+</Window>
