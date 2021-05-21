@@ -10,16 +10,16 @@
         <Grid.Background>
             <ImageBrush ImageSource="res/back.jpg" Stretch="Fill"/>
         </Grid.Background>
-        <Button HorizontalAlignment="Left" Margin="37,180,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.01,-1.426" Height="224" Width="149" Background="{x:Null}" Opacity="0" Cursor="Hand" Click="Button_Click"/>
-        <Button HorizontalAlignment="Left" Margin="198,180,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.01,-1.426" Height="224" Width="148" Background="{x:Null}" Opacity="0" Cursor="Hand" Click="Button_Click_1"/>
-        <Button HorizontalAlignment="Center" Margin="0,180,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.01,-1.426" Height="224" Width="150" Background="{x:Null}" Opacity="0" Cursor="Hand" Click="Button_Click_2"/>
-        <Button HorizontalAlignment="Left" Margin="533,177,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.01,-1.426" Height="221" Width="146" Background="{x:Null}" Opacity="0" Cursor="Hand" Click="Button_Click_3"/>
-        <Button HorizontalAlignment="Left" Margin="698,177,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.01,-1.426" Height="238" Width="148" Background="{x:Null}" Opacity="0" Cursor="Hand" Click="Button_Click_4"/>
-        <Button HorizontalAlignment="Left" Margin="37,439,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.01,-1.426" Height="211" Width="149" Background="{x:Null}" Opacity="0" Cursor="Hand" Click="Button_Click_5"/>
-        <Button HorizontalAlignment="Left" Margin="198,439,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.01,-1.426" Height="235" Width="148" Background="{x:Null}" Opacity="0" Cursor="Hand" Click="Button_Click_6"/>
-        <Button HorizontalAlignment="Left" Margin="368,439,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.01,-1.426" Height="222" Width="144" Background="{x:Null}" Opacity="0" Cursor="Hand" Click="Button_Click_7"/>
-        <Button HorizontalAlignment="Left" Margin="533,439,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.01,-1.426" Height="244" Width="146" Background="{x:Null}" Opacity="0" Cursor="Hand" Click="Button_Click_8"/>
-        <Button HorizontalAlignment="Left" Margin="698,439,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.01,-1.426" Height="244" Width="148" Background="{x:Null}" Opacity="0" Cursor="Hand" Click="Button_Click_9"/>
+        <Button HorizontalAlignment="Left" Margin="37,180,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.01,-1.426" Height="224" Width="149" Background="Black" Cursor="Hand" Click="Button_Click" Opacity="0.01"/>
+        <Button HorizontalAlignment="Left" Margin="198,180,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.01,-1.426" Height="224" Width="148" Background="Black" Cursor="Hand" Click="Button_Click_1" Opacity="0.01"/>
+        <Button HorizontalAlignment="Center" Margin="0,180,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.01,-1.426" Height="224" Width="150" Background="Black" Cursor="Hand" Click="Button_Click_2" Opacity="0.01"/>
+        <Button HorizontalAlignment="Left" Margin="533,177,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.01,-1.426" Height="221" Width="146" Background="Black" Cursor="Hand" Click="Button_Click_3" Opacity="0.01"/>
+        <Button HorizontalAlignment="Left" Margin="698,177,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.01,-1.426" Height="238" Width="148" Background="Black" Cursor="Hand" Click="Button_Click_4" Opacity="0.01"/>
+        <Button HorizontalAlignment="Left" Margin="37,439,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.01,-1.426" Height="211" Width="149" Background="Black" Cursor="Hand" Click="Button_Click_5" Opacity="0.01"/>
+        <Button HorizontalAlignment="Left" Margin="198,439,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.01,-1.426" Height="235" Width="148" Background="Black" Cursor="Hand" Click="Button_Click_6" Opacity="0.01"/>
+        <Button HorizontalAlignment="Left" Margin="368,439,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.01,-1.426" Height="222" Width="144" Background="Black" Cursor="Hand" Click="Button_Click_7" Opacity="0.01"/>
+        <Button HorizontalAlignment="Left" Margin="533,439,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.01,-1.426" Height="244" Width="146" Background="Black" Cursor="Hand" Click="Button_Click_8" Opacity="0.01"/>
+        <Button HorizontalAlignment="Left" Margin="698,439,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.01,-1.426" Height="244" Width="148" Background="Black" Cursor="Hand" Click="Button_Click_9" Opacity="0.01"/>
 
     </Grid>
 </Window>
