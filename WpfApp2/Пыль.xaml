@@ -10,6 +10,11 @@
         <Grid.Background>
             <ImageBrush ImageSource="res/back2.jpg"/>
         </Grid.Background>
+        <Button HorizontalAlignment="Left" Margin="787,10,0,0" VerticalAlignment="Top" Width="60" Height="60" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="res/return.png"/>
+            </Button.Background>
+        </Button>
         <Image HorizontalAlignment="Center" Height="352" Margin="0,112,0,0" VerticalAlignment="Top" Width="591" Source="res/протирать.jpg" Stretch="Uniform" StretchDirection="Both"/>
         <TextBox IsReadOnly="True" HorizontalAlignment="Center" Margin="0,455,0,0" Text="Грязная, покрытая пылью лампа светит на 15% слабее, чем чистая. Это приводит к тому, что в комнате становится темнее, и вам сразу хочется включить больше источников освещения, чем нужно. Результат – растут счета за электричество.
 Давайте посчитаем возможные траты.

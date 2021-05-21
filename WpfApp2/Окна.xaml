@@ -10,6 +10,11 @@
         <Grid.Background>
             <ImageBrush ImageSource="res/back2.jpg"/>
         </Grid.Background>
+        <Button HorizontalAlignment="Left" Margin="787,10,0,0" VerticalAlignment="Top" Width="60" Height="60" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="res/return.png"/>
+            </Button.Background>
+        </Button>
         <Image HorizontalAlignment="Center" Height="336" Margin="0,103,0,0" VerticalAlignment="Top" Width="519" Source="res/Утепление окон.jpg" Stretch="Uniform" StretchDirection="Both"/>
         <TextBox ScrollViewer.HorizontalScrollBarVisibility="Auto"
          ScrollViewer.VerticalScrollBarVisibility="Auto"

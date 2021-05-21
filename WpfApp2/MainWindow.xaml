@@ -20,6 +20,11 @@
         <Button HorizontalAlignment="Left" Margin="368,439,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.01,-1.426" Height="222" Width="144" Background="Black" Cursor="Hand" Click="Button_Click_7" Opacity="0.01"/>
         <Button HorizontalAlignment="Left" Margin="533,439,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.01,-1.426" Height="244" Width="146" Background="Black" Cursor="Hand" Click="Button_Click_8" Opacity="0.01"/>
         <Button HorizontalAlignment="Left" Margin="698,439,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.01,-1.426" Height="244" Width="148" Background="Black" Cursor="Hand" Click="Button_Click_9" Opacity="0.01"/>
+        <Button HorizontalAlignment="Left" Margin="815,10,0,0" VerticalAlignment="Top" Width="60" Height="60" Click="Button_Click_10">
+            <Button.Background>
+                <ImageBrush ImageSource="res/exit.png"/>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Window>

@@ -19,6 +19,10 @@
 Маркировку В наносят на приборы с более низким показателем энергоэффективности.
 Класс энергосбережения
 Буквы C, D, E, F, G показывают самый низкий класс энергосбережения." TextWrapping="Wrap" VerticalAlignment="Top" Width="815" Height="259" FontSize="18"/>
-
+        <Button HorizontalAlignment="Left" Margin="787,10,0,0" VerticalAlignment="Top" Width="60" Height="60" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="res/return.png"/>
+            </Button.Background>
+        </Button>
     </Grid>
 </Window>

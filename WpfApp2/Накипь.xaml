@@ -10,6 +10,11 @@
         <Grid.Background>
             <ImageBrush ImageSource="res/back2.jpg"/>
         </Grid.Background>
+        <Button HorizontalAlignment="Left" Margin="787,10,0,0" VerticalAlignment="Top" Width="60" Height="60" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="res/return.png"/>
+            </Button.Background>
+        </Button>
         <Image HorizontalAlignment="Center" Height="325" Margin="0,113,0,0" VerticalAlignment="Top" Width="579" Source="res/чайник (картинка).jpg" Stretch="Uniform" StretchDirection="Both"/>
         <TextBox IsReadOnly="True" HorizontalAlignment="Center" Margin="0,455,0,0" Text="Накипь значительно ухудшает теплопроводность металла. Из-за дополнительной теплоизоляции электронагреватель увеличивает свою температуру до установления нового равновесия вырабатываемого тепла и его отдачи сквозь слой накипи. Поскольку при повышении температуры сопротивление проводника увеличивается, его мощность снижается. Следовательно, время на нагрев воды увеличивается — как за счёт замедления теплопередачи на начальном этапе, так и за счёт постоянного снижения мощности в рабочем режиме. Количество потреблённой электроэнергии для нагрева одинакового количества воды до одинаковой температуры при этом почти не меняется (меняется потребляемая мощность и время нагрева)." TextWrapping="Wrap" VerticalAlignment="Top" Width="815" Height="255" FontSize="18"/>
 

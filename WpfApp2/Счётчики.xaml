@@ -10,6 +10,11 @@
         <Grid.Background>
             <ImageBrush ImageSource="res/back2.jpg"/>
         </Grid.Background>
+        <Button HorizontalAlignment="Left" Margin="787,10,0,0" VerticalAlignment="Top" Width="60" Height="60" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="res/return.png"/>
+            </Button.Background>
+        </Button>
         <Image HorizontalAlignment="Center" Height="352" Margin="0,134,0,0" VerticalAlignment="Top" Width="741" Source="res/счётчки картинка.jpg" Stretch="Uniform" StretchDirection="Both"/>
         <TextBox IsReadOnly="True" HorizontalAlignment="Center" Margin="0,455,0,0" Text="Экономия собственных средств (окупаемость прибора учета составляет около 1 года).
 Помощь в работе электростанции (производители электроэнергии будут реже ремонтировать оборудование и экономить топливо на генерацию электроэнергии).
