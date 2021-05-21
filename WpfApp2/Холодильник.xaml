@@ -10,9 +10,10 @@
         <Grid.Background>
             <ImageBrush ImageSource="res/back2.jpg"/>
         </Grid.Background>
+        <Image Height="60" Width="60" Margin="787,10,32,641" Source="res/return.png"/>
         <Image HorizontalAlignment="Left" Height="341" Margin="196,98,0,0" VerticalAlignment="Top" Width="511" Source="res/холодильник 1.jpg" Stretch="Uniform" StretchDirection="Both"/>
         <TextBox IsReadOnly="True" HorizontalAlignment="Center" Margin="0,455,0,0" Text="Производители крайне не советуют приобретать к этому варианту, потому что это рано или поздно приведет к поломке агрегата. Это происходит потому, что батарея будет нагревать заднюю часть холодильного шкафа, который в свою очередь испаряет холодный воздух. Из-за горячих паров агрегату придется расходовать много электроэнергии, чтобы сохранять свою температуру, а это в конечном итоге и приведет к тому, что он выйдет из строя. В инструкции к применению холодильного шкафа четко написано о недопустимости его установки около батареи отопления." TextWrapping="Wrap" VerticalAlignment="Top" Width="815" Height="259" FontSize="18"/>
-        <Button HorizontalAlignment="Left" Margin="787,10,0,0" VerticalAlignment="Top" Width="60" Height="60" Click="Button_Click">
+        <Button HorizontalAlignment="Left" Margin="787,10,0,0" VerticalAlignment="Top" Width="60" Height="60" Click="Button_Click" Opacity="0.01">
             <Button.Background>
                 <ImageBrush ImageSource="res/return.png"/>
             </Button.Background>
