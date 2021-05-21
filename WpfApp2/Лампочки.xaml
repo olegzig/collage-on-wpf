@@ -11,7 +11,7 @@
             <ImageBrush ImageSource="res/back2.jpg"/>
         </Grid.Background>
         <Image HorizontalAlignment="Center" Height="360" Margin="0,101,0,0" VerticalAlignment="Top" Width="504" Source="res/лампочки(картинка).jpg" Stretch="Uniform" StretchDirection="Both"/>
-        <TextBox HorizontalAlignment="Center" Margin="0,455,0,0" Text="LED-лампы позволяют в 6-10 раз сократить расходы на электроэнергию.
+        <TextBox IsReadOnly="True" HorizontalAlignment="Center" Margin="0,455,0,0" Text="LED-лампы позволяют в 6-10 раз сократить расходы на электроэнергию.
 Не нагреваются. Подходят для использования с бумажными, деревянными и другими огнеопасными плафонами и абажурами.
 Безопасны для детей при установке в ночниках и настольных лампах.
 Долговечны, сопровождаются гарантией.

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="740" Width="885" ResizeMode="NoResize">
+        Title="Жгуновский коллаж" Height="740" Width="885" ResizeMode="NoResize">
     <Grid Height="730" VerticalAlignment="Top" HorizontalAlignment="Right" Width="885">
         <Grid.Background>
             <ImageBrush ImageSource="res/back.jpg" Stretch="Fill"/>

@@ -11,7 +11,7 @@
             <ImageBrush ImageSource="res/back2.jpg"/>
         </Grid.Background>
         <Image HorizontalAlignment="Left" Height="352" Margin="233,90,0,0" VerticalAlignment="Top" Width="511" Source="res/белые обои.jpg" Stretch="Uniform" StretchDirection="Both"/>
-        <TextBox HorizontalAlignment="Center" Margin="0,455,0,0" Text="Согласно таблице коэффициента поглощения солнечного излучения, поверхности белого цвета слабее всех поглощают инфрокрасное излучение. По этому, если покрасить поверхности комнаты в белый цвет, то теплопроводность стен будет ухудшена.
+        <TextBox IsReadOnly="True" HorizontalAlignment="Center" Margin="0,455,0,0" Text="Согласно таблице коэффициента поглощения солнечного излучения, поверхности белого цвета слабее всех поглощают инфрокрасное излучение. По этому, если покрасить поверхности комнаты в белый цвет, то теплопроводность стен будет ухудшена.
 Но данный эффект не будет распространяться на стены вне вашей комнаты, так что ИК излучение снаружи вашей комнаты будет согревать вас как и раньше.
 " TextWrapping="Wrap" VerticalAlignment="Top" Width="815" Height="259" FontSize="18"/>
 

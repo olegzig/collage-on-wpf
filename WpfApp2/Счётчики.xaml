@@ -11,7 +11,7 @@
             <ImageBrush ImageSource="res/back2.jpg"/>
         </Grid.Background>
         <Image HorizontalAlignment="Center" Height="352" Margin="0,134,0,0" VerticalAlignment="Top" Width="741" Source="res/счётчки картинка.jpg" Stretch="Uniform" StretchDirection="Both"/>
-        <TextBox HorizontalAlignment="Center" Margin="0,455,0,0" Text="Экономия собственных средств (окупаемость прибора учета составляет около 1 года).
+        <TextBox IsReadOnly="True" HorizontalAlignment="Center" Margin="0,455,0,0" Text="Экономия собственных средств (окупаемость прибора учета составляет около 1 года).
 Помощь в работе электростанции (производители электроэнергии будут реже ремонтировать оборудование и экономить топливо на генерацию электроэнергии).
 Сокращение вредных выбросов в атмосферу. Как мы уже говорили, из-за неравномерного потребления электричества, станция скачкообразно потребляет топливо, поэтому днем и ближе к вечеру вредные выбросы будут интенсивно загрязнять окружающую среду." TextWrapping="Wrap" VerticalAlignment="Top" Width="815" Height="259" FontSize="18"/>
 
