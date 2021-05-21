@@ -22,8 +22,15 @@ namespace WpfApp2
         public Свет()
         {
             InitializeComponent();
+
+            this.Closed += this_Closed;
         }
         private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Owner.Show();
+            this.Close();
+        }
+        private void this_Closed(object sender, EventArgs e)
         {
             Owner.Show();
             this.Close();

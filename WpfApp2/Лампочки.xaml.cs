@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.IO;
 
 namespace WpfApp2
 {
@@ -22,9 +23,15 @@ namespace WpfApp2
         public Лампочки()
         {
             InitializeComponent();
+            this.Closed += this_Closed;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Owner.Show();
+            this.Close();
+        }
+        private void this_Closed(object sender, EventArgs e)
         {
             Owner.Show();
             this.Close();

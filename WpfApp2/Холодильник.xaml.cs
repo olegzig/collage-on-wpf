@@ -22,6 +22,13 @@ namespace WpfApp2
         public Холодильник()
         {
             InitializeComponent();
+
+            this.Closed += this_Closed;
+        }
+        private void this_Closed(object sender, EventArgs e)
+        {
+            Owner.Show();
+            this.Close();
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
