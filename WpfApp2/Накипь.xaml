@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp2"
         mc:Ignorable="d"
-        Title="Накипь" Height="740" Width="885" ResizeMode="NoResize">
+        Title="Накипь" Height="740" Width="885" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="res/back2.jpg"/>
         </Grid.Background>
-        <Image Height="60" Width="60" Margin="787,10,32,641" Source="res/return.png"/>
-        <Button HorizontalAlignment="Left" Margin="787,10,0,0" VerticalAlignment="Top" Width="60" Height="60" Click="Button_Click" Opacity="0.01">
+        <Image Height="60" Width="60" HorizontalAlignment="Left" Margin="787,10,0,0" VerticalAlignment="Top" Source="res/return.png"/>
+        <Button HorizontalAlignment="Left" Margin="787,10,0,0" VerticalAlignment="Top" Width="60" Height="60" Click="Button_Click" Opacity="0.01" Cursor="Hand">
             <Button.Background>
                 <ImageBrush ImageSource="res/return.png"/>
             </Button.Background>

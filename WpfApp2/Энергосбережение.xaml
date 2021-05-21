@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp2"
         mc:Ignorable="d"
-        Title="Энергосбережение" Height="740" Width="885" ResizeMode="NoResize">
+        Title="Энергосбережение" Height="740" Width="885" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="res/back2.jpg"/>
         </Grid.Background>
-        <Image Height="60" Width="60" Margin="787,10,32,641" Source="res/return.png"/>
+        <Image Height="60" Width="60" HorizontalAlignment="Left" Margin="787,10,0,0" VerticalAlignment="Top" Source="res/return.png"/>
         <Image HorizontalAlignment="Center" Height="354" Margin="0,111,0,0" VerticalAlignment="Top" Width="589" Source="res/энерго.jpg" Stretch="Uniform" StretchDirection="Both"/>
         <TextBox IsReadOnly="True" HorizontalAlignment="Center" Margin="0,455,0,0" Text="На сегодняшний день установлены 7 основных классов энергоэффективности: A, B, C, D, E, F, G.
 Определенный класс присваивается прибору в зависимости от количества киловатт, которое он потребляет.
@@ -20,7 +20,7 @@
 Маркировку В наносят на приборы с более низким показателем энергоэффективности.
 Класс энергосбережения
 Буквы C, D, E, F, G показывают самый низкий класс энергосбережения." TextWrapping="Wrap" VerticalAlignment="Top" Width="815" Height="259" FontSize="18"/>
-        <Button HorizontalAlignment="Left" Margin="787,10,0,0" VerticalAlignment="Top" Width="60" Height="60" Click="Button_Click" Opacity="0.01">
+        <Button HorizontalAlignment="Left" Margin="787,10,0,0" VerticalAlignment="Top" Width="60" Height="60" Click="Button_Click" Opacity="0.01" Cursor="Hand">
             <Button.Background>
                 <ImageBrush ImageSource="res/return.png"/>
             </Button.Background>
